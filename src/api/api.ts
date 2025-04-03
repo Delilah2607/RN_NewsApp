@@ -23,7 +23,7 @@ export const fetchTopHeadlines = async (): Promise<NewsArticle[]> => {
   }
 };
 
-// Función para realizar una búsqueda de noticias por palabra clave
+
 export const searchNews = async (query: string): Promise<NewsArticle[]> => {
   try {
     const response = await api.get('/everything', {

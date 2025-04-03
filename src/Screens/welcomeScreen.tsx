@@ -27,13 +27,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#1E3A8A', // Azul fuerte
+    backgroundColor: '#1E3A8A', 
     padding: 20,
   },
   titulo: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#FFD700', // Dorado
+    color: '#FFD700', 
     textAlign: 'center',
     marginBottom: 10,
   },
@@ -44,14 +44,14 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   boton: {
-    backgroundColor: '#FFD700', // Dorado
+    backgroundColor: '#FFD700', 
     paddingVertical: 12,
     paddingHorizontal: 30,
     borderRadius: 10,
   },
   textoBoton: {
     fontSize: 18,
-    color: '#1E3A8A', // Azul fuerte
+    color: '#1E3A8A', 
     fontWeight: 'bold',
     textAlign: 'center',
   },

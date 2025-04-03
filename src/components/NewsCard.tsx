@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: '#fff',
     borderRadius: 8,
-    borderWidth: 3, // Bordes gruesos de colores
-    borderColor: '#1E90FF', // Azul vibrante
+    borderWidth: 3, 
+    borderColor: '#1E90FF', 
     shadowColor: '#000',
     shadowOpacity: 0.2,
     shadowRadius: 5,

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import { fetchTopHeadlines } from '../api/api';
-import NewsCard from '../components/NewsCard';  // Correcta importación
+import NewsCard from '../components/NewsCard';  
 import { NewsArticle } from '../types/New';
 
 const HomeScreen = ({ navigation }: { navigation: any }) => {
