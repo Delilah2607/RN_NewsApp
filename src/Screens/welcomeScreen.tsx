@@ -14,7 +14,7 @@ const WelcomeScreen = () => {
       
       <TouchableOpacity 
         style={styles.boton} 
-        onPress={() => navigation.navigate('Inicio')}
+        onPress={() => navigation.navigate('Main',{screen:"Inicio"})}
       >
         <Text style={styles.textoBoton}>Ver Noticias</Text>
       </TouchableOpacity>
